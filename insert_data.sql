@@ -1,0 +1,22 @@
+INSERT INTO common_words (russian_word, english_word) VALUES
+('белый', 'white'),
+('чёрный', 'black'),
+('красный', 'red'),
+('синий', 'blue'),
+('зелёный', 'green'),
+('жёлтый', 'yellow'),
+('солнце', 'sun'),
+('дождь', 'rain'),
+('снег', 'snow'),
+('ветер', 'wind'),
+('дом', 'house'),
+('стол', 'table'),
+('стул', 'chair'),
+('книга', 'book'),
+('ручка', 'pen'),
+('машина', 'car'),
+('собака', 'dog'),
+('кошка', 'cat'),
+('мама', 'mother'),
+('папа', 'father')
+ON CONFLICT (russian_word, english_word) DO NOTHING;

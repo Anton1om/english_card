@@ -1,0 +1,6 @@
+.env
+Thumbs.db
+*.log
+.idea/
+**/__pycache__/
+*.pyc
