@@ -53,7 +53,12 @@ venv\Scripts\activate         # для Windows
 ```bash
 pip install -r requirements.txt
 ```
-#### 4. Настройте переменные окружения
+#### 4. Создайте базу данных в PostgreSQL
+```sql
+CREATE DATABASE english_card;
+```
+
+#### 5. Настройте переменные окружения
 Скопируйте файл .env.example в .env и заполните его:
 
 ```env
@@ -67,10 +72,7 @@ DB_PASSWORD=<пароль к пользователю postgres>
 # Ключ для Яндекс.Словаря (Опционально. Можно получить здесь https://yandex.ru/dev/dictionary/keys/get/?service=dict)
 YANDEX_TRANSLATE_TOKEN=dict.1.1.xxxxx
 ```
-#### 5. Создайте базу данных в PostgreSQL
-```sql
-CREATE DATABASE english_card;
-```
+
 #### 6. Запустите приложение
 ``` bash
 streamlit run main.py
