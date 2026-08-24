@@ -21,7 +21,7 @@
 #### Добавление слов
 <img src="assets\screenshots\add_word.png" alt="Python logo" width="600">
 
-#### Статистика
+#### Просмотр статистики
 <img src="assets\screenshots\stat.png" alt="Python logo" width="600">
 
 ---
@@ -89,7 +89,7 @@ python init_db.py
  - init_db.py – инициализация схемы и начальных данных. 
  - config.py – загрузка переменных окружения. 
  - sql/ – SQL-скрипты для создания таблиц и заполнения общими словами. 
- - assets/ – картинки для отображения в интерфейсе.
+ - assets/ – изображения для README и интерфейса.
 
 ---
 
