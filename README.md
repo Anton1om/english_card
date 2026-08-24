@@ -64,7 +64,7 @@ DB_NAME=english_card
 DB_USER=postgres
 DB_PASSWORD=<пароль к пользователю postgres>
 
-# Токен для Яндекс.Словаря (Опционально. Можно получить на https://yandex.ru/dev/dictionary/keys/get/?service=dict)
+# Ключ для Яндекс.Словаря (Опционально. Можно получить здесь https://yandex.ru/dev/dictionary/keys/get/?service=dict)
 YANDEX_TRANSLATE_TOKEN=dict.1.1.xxxxx
 ```
 #### 5. Создайте базу данных в PostgreSQL
